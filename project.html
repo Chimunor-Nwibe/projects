@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+  <link rel="stylesheet" href="project style.css">
+  
+   </head>
+  <body>
+    <h1 id=title>Survey Form</h1>
+    <p id="description">Thank you for helping us develop a better site.</p>
+    <form action="https://www.freecodecamp.org/" id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">name</label><input id="name" required placeholder="name" type="text"/>
+
+<label id="email-label" for="email">email<input  placeholder="email" id="email" type="email" required/>
+</label>  
+    
+    <label id="number-label" for="number">number<input min="8"  placeholder="number" max="20" id="number" type="number"/></label>
+    </fieldset>
+    
+    <fieldset>
+    <label for="dropdown">How did you hear about this website<select id="dropdown">
+      <option>(select one)</option>
+      <option>News</option>
+      <option>Our Youtube page</option>
+      <option>Our Facebook page</option>
+      <option>Other</option>
+    </select></label>
+    </fieldset>
+  
+ <fieldset class="third">
+<p>How much do you use this site</p>
+<label ><input class="third"  name="down"  value="drop" type="radio"  id="option"/>Everytime</label class="third">
+<label ><input  class="third" name="down" value="drop" type="radio">Sometimes</label>
+<label><input class="third" type="radio" name="down" value="drop" id="option"/>Never</label>
+<label  name="check" > <input class="third"  value="check" type="checkbox"/ > This is my first survey on this site</label>
+<label name="check"  > <input class="third"  type="checkbox"value="check"/ > I've have already registered</label>
+<label >additional comments:<textarea class="third"></textarea></label>
+<input id="submit" type="Submit"/>
+</fieldset>
+
+ 
+</form>
+  </body>
+</html>  
